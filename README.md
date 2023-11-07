@@ -55,3 +55,7 @@ I deployed the application using Azure App Services with the following steps:
 6. Continuous Enhancements: Cloud services regularly update applications and infrastructure to maintain security and functionality.
 
 
+## Challenges Encountered.
+
+While attempting to upload my healthcare informatics video to Github, I encountered an issue as the file size exceeded the 25 MB limit. Therefore, I had to compress the video. 
+
