@@ -8,6 +8,33 @@ I used an online healthcare informatics program video for display on both the CD
 
 
 ## Azure Cloud CDN and Video Hosting
+1. Sign in to Azure Portal: Access the Azure Portal using this link: https://azure.microsoft.com/en-us/get-started/azure-portal 
+2. Create a Storage Account:
+- Utilize the Search bar to find and select "Storage Accounts."
+- Choose to either use an existing resource group or create a new one.
+- Define a unique storage account name and proceed with the creation.
+3. Configure Storage Account:
+- After creating the storage account, navigate to the left-side menu and select or search for "Overview."
+- Under the Security section, ensure the following options are enabled: "Allow Blob Anonymous," "Secure Transfer Required," and "Allow Storage Account Key Access." Save your settings.
+4. Set Up a Container:
+- Access the left-side menu and select or search for "Containers."
+- Create a new container, assigning a name and adjusting the anonymous access to "Container (Anonymous read access for containers and blobs)." Complete the creation.
+5. Upload Content:
+- Within the chosen container, upload a file of your choice.
+- Open the uploaded file to retrieve the associated URL, as you will need it for your code.
+6. Configure Azure CDN:
+- Access the left-side menu and select or search for "Security and Networking."
+- Within this section, locate "Front Door and CDN" and select it.
+- Choose "Azure CDN" as the service type and proceed to create the profile and endpoint names.
+- Adjust the query string setting to "Ignore Query String" and finalize the creation.
+7. Copy CDN Endpoint URL:
+- Once the CDN endpoint is created, open it.
+- Click on the hostname and then the endpoint hostname.
+- Copy the URL provided.
+8. Combine URLs:
+- Merge the hostname and container URLs by copying the part of the URL from the container that comes after ".net."
+- Append this to the end of the hostname URL.
+By following these steps, you'll be able to seamlessly integrate your Azure storage account and CDN into your application.
 
 
 ## Azure Cloud Deployment
