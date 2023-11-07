@@ -30,7 +30,7 @@ I deployed the application using Azure App Services with the following steps:
 
 
 ## Observations and Benefits of Using a CDN and Cloud Deployment
-### Content Delivery Networks (CDNs) offer several advantages, such as:
+#### Content Delivery Networks (CDNs) offer several advantages, such as:
 1. Improved Load Times: CDNs reduce latency and enhance loading speed by distributing content globally.
 
 2. Global Reach: Content is delivered from the nearest server location, improving content delivery and reducing server load.
@@ -41,7 +41,7 @@ I deployed the application using Azure App Services with the following steps:
 
 5. Enhanced Security: CDNs offer security measures, including encryption and firewalls, to protect data.
 
-### Cloud deployment provides numerous benefits, such as:
+#### Cloud deployment provides numerous benefits, such as:
 1. Scalability: Cloud environments effortlessly adapt to varying workloads, making them well-suited for growing applications.
 
 2. Cost Optimization: Cloud services follow a pay-as-you-go model, minimizing upfront investments and offering cost predictability.
