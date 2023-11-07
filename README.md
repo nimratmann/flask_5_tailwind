@@ -10,10 +10,6 @@ I used an online healthcare informatics program video for display on both the CD
 ## Azure Cloud CDN and Video Hosting
 
 
-
-## Flask App with Tailwind CSS
-
-
 ## Azure Cloud Deployment
 I deployed the application using Azure App Services with the following steps:
 1. To run the flask application via Azure App Service. Use the following command curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash to initiate Azure Cli package installation.
@@ -31,3 +27,31 @@ I deployed the application using Azure App Services with the following steps:
 7. The terminal will then say that the webapp does not exist, and it will create the resource group and start the zip deployment process. (This process takes a few minutes)
 
 8. You can now login into your Azure account and view your running wbepage URL under "App Services"
+
+
+## Observations and Benefits of Using a CDN and Cloud Deployment
+### Content Delivery Networks (CDNs) offer several advantages, such as:
+1. Improved Load Times: CDNs reduce latency and enhance loading speed by distributing content globally.
+
+2. Global Reach: Content is delivered from the nearest server location, improving content delivery and reducing server load.
+
+3. Enhanced Availability: CDNs provide redundancy and high availability, ensuring consistent access to resources.
+
+4. Cost-Efficiency: CDNs optimize content delivery while reducing infrastructure costs.
+
+5. Enhanced Security: CDNs offer security measures, including encryption and firewalls, to protect data.
+
+### Cloud deployment provides numerous benefits, such as:
+1. Scalability: Cloud environments effortlessly adapt to varying workloads, making them well-suited for growing applications.
+
+2. Cost Optimization: Cloud services follow a pay-as-you-go model, minimizing upfront investments and offering cost predictability.
+
+3. High Reliability: Cloud platforms offer redundancy and high availability, reducing service interruptions and downtime.
+
+4. Comprehensive Security: Cloud providers typically offer advanced security features, ensuring data and applications are well-protected.
+
+5. User-Friendly Management: Cloud platforms provide intuitive interfaces for efficient resource management.
+
+6. Continuous Enhancements: Cloud services regularly update applications and infrastructure to maintain security and functionality.
+
+
